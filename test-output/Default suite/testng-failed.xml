@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.scripts.actitime.Testcreatwork">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="work"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testcreatwork -->
+      <class name="com.scripts.actitime.TestActitimelogin">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.TestActitimelogin -->
+      <class name="com.scripts.actitime.Testcreatleave">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="leave"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testcreatleave -->
+      <class name="com.scripts.actitime.Testeditleave">
+        <methods>
+          <include name="editleavetype"/>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testeditleave -->
+      <class name="com.scripts.actitime.Testdeletework">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="deletework"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testdeletework -->
+      <class name="com.scripts.actitime.Testcreatcustomer">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="customer"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testcreatcustomer -->
+      <class name="com.scripts.actitime.Testdeleteleave">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="deleteleave"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testdeleteleave -->
+      <class name="com.scripts.actitime.Testeditwork">
+        <methods>
+          <include name="openbrowser"/>
+          <include name="logout"/>
+          <include name="editworktype"/>
+          <include name="login"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- com.scripts.actitime.Testeditwork -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
